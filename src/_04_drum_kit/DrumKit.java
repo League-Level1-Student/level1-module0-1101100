@@ -45,7 +45,7 @@ public class DrumKit implements MouseListener {
 		drumLabelWithImage = createLabelImage(drum);
 
 		// 10. Add the image to the panel
-		frame.add(drumLabelWithImage);
+		panel.add(drumLabelWithImage);
 		// 11. Set the layout of the panel to "new GridLayout()"
 		panel.setLayout(new GridLayout());
 		// 12. call the pack() method on the frame. Run your program. Do you see
@@ -57,7 +57,7 @@ public class DrumKit implements MouseListener {
 		// listener to each one.
 		String cymbal = "cymbal.jpg";
 		cymbalLabelWithImage = createLabelImage(cymbal);
-		frame.add(cymbalLabelWithImage);
+		panel.add(cymbalLabelWithImage);
 		frame.pack();
 		cymbalLabelWithImage.addMouseListener(this);
 		}

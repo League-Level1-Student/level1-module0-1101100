@@ -14,7 +14,14 @@ public class Houses {
 		background("black");
 		flatHouse("small", "red");
 		pointHouse("medium", "green");
+		flatHouse("large", "red");
 		flatHouse("large", "blue");
+		flatHouse("large", "green");
+		flatHouse("small", "blue");
+		flatHouse("large", "red");
+		pointHouse("medium", "red");
+		pointHouse("small", "green");
+		pointHouse("medium", "blue");
 		
 		
 	}

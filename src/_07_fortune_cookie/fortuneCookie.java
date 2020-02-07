@@ -32,19 +32,19 @@ public class fortuneCookie implements ActionListener{
 		Random rand = new Random();
 		int ran = rand.nextInt(5);
 		if (ran == 0) {
-			JOptionPane.showMessageDialog(null, "[fortune0]");
+			JOptionPane.showMessageDialog(null, "rich");
 		}
 		else if (ran == 1) {
-			JOptionPane.showMessageDialog(null, "[fortune1]");
+			JOptionPane.showMessageDialog(null, "not rich");
 		}
 		else if (ran == 2) {
-			JOptionPane.showMessageDialog(null, "[fortune2]");
+			JOptionPane.showMessageDialog(null, "nothing happens");
 		}
 		else if (ran == 3) {
-			JOptionPane.showMessageDialog(null, "[fortune3]");
+			JOptionPane.showMessageDialog(null, "cow");
 		}
 		else if (ran == 4) {
-			JOptionPane.showMessageDialog(null, "[fortune4]");
+			JOptionPane.showMessageDialog(null, "virus");
 		}
 
 		
